@@ -1,8 +1,8 @@
-snippets of what's new in the c++11 standard
+snippets of what's new in the c++11 standard and rarely seen features
 
 please see the documentation on what's currently supported by your compiler
 
 http://clang.llvm.org/cxx_status.html
 http://gcc.gnu.org/projects/cxx0x.html
 
-e.g. the initializer lists snippet only works with g++ >= 4.4 or clang++ >= 3.1, which in the latter case is a rather current version.
+e.g. the initializer lists snippet only works with g++ >= 4.4 or clang++ >= 3.1, which in the latter case is a rather current version
