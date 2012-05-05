@@ -8,4 +8,6 @@ int main() {
 
   for(vector<int>::const_iterator it = w->begin(); it != w->end(); ++it)
     cout << *it << endl;
+
+  delete w;
 }
