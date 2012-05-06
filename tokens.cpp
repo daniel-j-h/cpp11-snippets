@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 /*
 Alternative Primary
 <% {
@@ -27,8 +29,8 @@ int main() {
   int a<::> = <% 2,3 %>;
 
   %: if defined(OUT)
-  std::cout << a<:0:> << std::endl; /* output is 2 */
+  cout << a<:0:> << endl; /* output is 2 */
   %: else
-  std::cout << a<:1:> << std::endl; /* output is 3 */
+  cout << a<:1:> << endl; /* output is 3 */
   %: endif
 }

@@ -1,5 +1,3 @@
-using namespace std;
-
 class A {
   public:
     A() = default; /* explicit default constructor */

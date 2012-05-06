@@ -1,5 +1,7 @@
 ??=include <iostream>
 
+using namespace std;
+
 /*
 Trigraph Replacement
 ??= #
@@ -16,5 +18,5 @@ Trigraph Replacement
 int main() {
   int a??(??) = ??< 2,3 ??>;
 
-  std::cout << a??(0??) << std::endl; /* output is 2 */
+  cout << a??(0??) << endl; /* output is 2 */
 }
