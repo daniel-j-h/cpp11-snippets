@@ -2,8 +2,8 @@ override, final
 regex
 smart pointer
 atomic
-thread
 prng
 distributions
-container
 chrono
+functoid
+type traits
