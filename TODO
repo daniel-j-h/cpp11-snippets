@@ -1,8 +1,5 @@
-override, final
 regex
 atomic
-prng
-distributions
 chrono
 functoid
 type traits
