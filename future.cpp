@@ -3,7 +3,7 @@
 
 using namespace std;
 
-/* compile wirh -pthread */
+/* compile wirh -lpthread */
 
 int cfunc() {
   return 42; /* do your async calc here */

@@ -1,19 +1,22 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
-#include <iterator>
 
 using namespace std;
 
 int main() {
-  vector<int> v = {6, 1, 8, 2, 7, 6};
+  vector<int> v({6, 1, 8, 2, 7, 6});
 
-  copy(v.begin(), v.end(), ostream_iterator<int>(cout, " "));
+  for(auto x : v)
+    cout << x << endl;
 
-  /* sort by lambda */
+  /* sort by lambda, or functoid */
   sort(v.begin(), v.end(), [](int a, int b){ return a > b; });
 
-  copy(v.begin(), v.end(), ostream_iterator<int>(cout, " "));
+  cout << "reverse sorted:" << endl;
+
+  for(auto x : v)
+    cout << x << endl;
 
   /* alt. incl. <functional> and use e.g. greater<int>() */
 }

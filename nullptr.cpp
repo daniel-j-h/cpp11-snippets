@@ -2,27 +2,13 @@
 
 using namespace std;
 
-
-/* gcc >= 4.6 for nullptr support needed; this is a workaround: */
-const class {
-  public:
-    template<class T>
-    operator T*() const { return 0; }
-
-    template<class C, class T>
-    operator T C::*() const { return 0; }
-
-  private:
-    void operator&() const;
-} nullptr = {};
-
-
 int main() {
-  char *p;
+  int *p = nullptr; /* normally you get a pointer e.g. from a function */
 
   if(p == nullptr)
     cout << "null" << endl;
   else
     cout << "not null" << endl;
-}
 
+  /* the type-safe nullptr is of type std::nullptr_t and of size sizeof(void*) */
+}

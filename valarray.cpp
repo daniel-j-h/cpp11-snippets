@@ -5,15 +5,15 @@ using namespace std;
 
 template<class T>
 void valprint(valarray<T> v) {
-  for(int i = 0; i < v.size(); ++i)
+  for(int i = 0; i < static_cast<int>(v.size()); ++i)
     cout << v[i] << " ";
   cout << endl;
 }
 
 int main() {
   /* optimized value array */
-  valarray<int> v = {1, 2, 3, 4, 5, 6, 7, 8};
-  valarray<int> w = {4, 7, 9, 2, 7, 2, 4, 9};
+  valarray<int> v({1, 2, 3, 4, 5, 6, 7, 8});
+  valarray<int> w({4, 7, 9, 2, 7, 2, 4, 9});
 
   cout << "v: ";
   valprint(v);
@@ -33,7 +33,7 @@ int main() {
   /* valarray<T>.apply() is basically the same as for_each */
 
   /* math on valarrays */
-  valarray<int> result = (v^(v*w))+v;
+  valarray<int> result((v^(v*w))+v);
   cout << "(v^(v*w))+v: ";
   valprint(result);
 

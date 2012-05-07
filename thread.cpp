@@ -3,7 +3,7 @@
 
 using namespace std;
 
-/* compile wirh -pthread */
+/* compile wirh -lpthread */
 
 class Runnable {
   private:

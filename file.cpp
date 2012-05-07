@@ -25,8 +25,8 @@ void funiq(const string &file) {
   }
 
   /* not sorted, b/c of unordered_set */
-  for(auto it = uniq.cbegin(); it != uniq.cend(); ++it)
-    cout << *it << endl;
+  for(auto x : uniq)
+    cout << x << endl;
 }
 
 int main() {

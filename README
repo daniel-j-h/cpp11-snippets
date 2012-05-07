@@ -6,3 +6,6 @@ http://clang.llvm.org/cxx_status.html
 http://gcc.gnu.org/projects/cxx0x.html
 
 e.g. the initializer lists snippet only works with g++ >= 4.4 or clang++ >= 3.1, which in the latter case is a rather current version
+
+quickly compile all snippets at once
+for i in $(ls *.cpp); do g++-4.7 -std=c++11 -lpthread -Wall -Wextra -Wno-unused-variable -Wno-trigraphs $i -o ${i%.cpp}; done

@@ -13,3 +13,5 @@ int main() {
 constexpr int square(int x) {
   return x * x;
 }
+
+/* constexpr can be used at compile time and at run time, i.e. in templates or e.g. as array size */

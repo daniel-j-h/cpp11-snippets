@@ -1,23 +1,22 @@
 #include <iostream>
 #include <vector>
+#include <memory>
 
 using namespace std;
-
 
 void flist(initializer_list<int>);
 
 int main() {
-  const vector<int> *w = new vector<int>{1, 2, 3};
+  /* we use a scoped ptr for ease of use; initialize vector with values */
+  const unique_ptr<vector<int>> v(new vector<int>{1, 2, 3});
 
-  for(vector<int>::const_iterator it = w->begin(); it != w->end(); ++it)
-    cout << *it << endl;
-
-  delete w;
+  for(auto x : *v)
+    cout << x << endl;
 
   flist({4, 5, 6});
 }
 
 void flist(initializer_list<int> list) {
-  for(const int *p = list.begin(); p != list.end(); ++p)
-    cout << *p << endl;
+  for(auto x : list)
+    cout << x << endl;
 }
