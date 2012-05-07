@@ -1,6 +1,5 @@
 override, final
 regex
-smart pointer
 atomic
 prng
 distributions

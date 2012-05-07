@@ -33,5 +33,5 @@ int main() {
     cout << "shared_ptr\tboth do not own an object, memory was successfully deleted" << endl;
 
 
-  /* see also weak_ptr */
+  /* see also weak_ptr; use const unique_ptr<T> instead of boost's scoped_ptr */
 }
