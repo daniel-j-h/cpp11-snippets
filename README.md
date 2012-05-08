@@ -5,7 +5,7 @@ Learn the new C++11 features by examples
 
 
 Compiler compatibility
-______________________
+----------------------
 
 Please see the documentation on what's currently supported by your compiler
 
@@ -18,7 +18,7 @@ e.g. the initializer list code compiles only with g++ >= 4.4 or clang++ >= 3.1, 
 Description
 -----------
 
-Source for the references is the free N3337 working draft, dated 16 January 2012
+Source for the references is the free [N3337](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2012/n3337.pdf) working draft (pdf), dated 16 January 2012
 
 <table>
   <tr><th>file</th><th>reference</th><th>description</th></tr>
