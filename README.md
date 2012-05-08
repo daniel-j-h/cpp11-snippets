@@ -4,8 +4,8 @@ C++11 Snippets
 Learn the new C++11 features by examples
 
 
-Note on compiler compatibility
-______________________________
+Compiler compatibility
+______________________
 
 Please see the documentation on what's currently supported by your compiler
 
@@ -15,8 +15,8 @@ Please see the documentation on what's currently supported by your compiler
 e.g. the initializer list code compiles only with g++ >= 4.4 or clang++ >= 3.1, which in the latter case is a rather current version
 
 
-Description of the examples
-___________________________
+Description
+-----------
 
 Source for the references is the free N3337 working draft, dated 16 January 2012
 
@@ -33,7 +33,7 @@ Source for the references is the free N3337 working draft, dated 16 January 2012
   <tr><td>foreach.cpp</td><td>[stmt.ranged]</td><td>range-based for</td></tr>
   <tr><td>future.cpp</td><td>[futures]</td><td>asynchronous results</td></tr>
   <tr><td>hashtable.cpp</td><td>[unord.general]</td><td>hashtable</td></tr>
-  <tr><td>initializer.cpp</td>[support.initlist]<td></td><td>initializer lists</td></tr>
+  <tr><td>initializer.cpp</td><td>[support.initlist]</td><td>initializer lists</td></tr>
   <tr><td>lambda.cpp</td><td>[expr.prim.lambda]</td><td>simple function objects</td></tr>
   <tr><td>math.cpp</td><td>[c.math]</td><td>math functions</td></tr>
   <tr><td>nullptr.cpp</td><td>[lex.nullptr]</td><td>null</td></tr>
