@@ -13,7 +13,6 @@ List of missing examples
 * functoid
 * ratio
 * alignment
-* delegation
 * type traits
 * trailing-return-type
 * variadic templates
