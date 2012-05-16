@@ -28,6 +28,7 @@ Source for the references is the free [N3337](http://www.open-std.org/jtc1/sc22/
   <tr><td>chrono.cpp</td><td>[time.syn]</td><td>time utilities</td></tr>
   <tr><td>constexpr.cpp</td><td>[expr.const]</td><td>compile time and run time const</td></tr>
   <tr><td>defaultdelete.cpp</td><td>[dcl.fct.def.general]</td><td>defaulted and deleted definition</td></tr>
+  <tr><td>delegation.cpp</td><td>[class.base.init]</td><td>delegating constructor</td></tr>
   <tr><td>enumeration.cpp</td><td>[dcl.enum]</td><td>type-safe enumerations</td></tr>
   <tr><td>file.cpp</td><td>[iostreams.base]</td><td>file stream</td></tr>
   <tr><td>foreach.cpp</td><td>[stmt.ranged]</td><td>range-based for</td></tr>
@@ -45,6 +46,7 @@ Source for the references is the free [N3337](http://www.open-std.org/jtc1/sc22/
   <tr><td>stringliterals.cpp</td><td>[lex.string]</td><td>string literals</td></tr>
   <tr><td>thread.cpp</td><td>[thread.threads]</td><td>threading</td></tr>
   <tr><td>tokens.cpp</td><td>[lex.digraph]</td><td>alternative tokens</td></tr>
+  <tr><td>trailingreturntype.cpp</td><td>[dcl.decl]</td><td>trailing return type</td></tr>
   <tr><td>trigraph.cpp</td><td>[lex.trigraph]</td><td>alternative sequences</td></tr>
   <tr><td>tuple.cpp</td><td>[tuple]</td><td>tuples</td></tr>
   <tr><td>valarray.cpp</td><td>[numarray]</td><td>numeric arrays</td></tr>

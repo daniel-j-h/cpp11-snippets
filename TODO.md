@@ -14,6 +14,5 @@ List of missing examples
 * ratio
 * alignment
 * type traits
-* trailing-return-type
 * variadic templates
 * rvalue references
