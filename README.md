@@ -40,6 +40,7 @@ Source for the references is the free [N3337](http://www.open-std.org/jtc1/sc22/
   <tr><td>nullptr.cpp</td><td>[lex.nullptr]</td><td>null</td></tr>
   <tr><td>overridefinal.cpp</td><td>[class.virtual]</td><td>identifier</td></tr>
   <tr><td>random.cpp</td><td>[rand]</td><td>random number generation</td></tr>
+  <tr><td>regex.cpp</td><td>[re]</td><td>regular expressions</td></tr>
   <tr><td>rightbrackets.cpp</td><td>[diff.cpp03.temp]</td><td>removed template whitespace</td></tr>
   <tr><td>smartpointer.cpp</td><td>[smartptr]</td><td>smart memory management</td></tr>
   <tr><td>staticassert.cpp</td><td>[dcl.dcl]</td><td>compile time assertions</td></tr>

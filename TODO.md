@@ -7,7 +7,7 @@ There are no examples for the following features, yet
 List of missing examples
 -----------------------
 
-* regex
+* regex (not yet implemented in latest libstdc++)
 * atomic
 * mutex
 * functoid
