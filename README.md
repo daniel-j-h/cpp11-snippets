@@ -53,4 +53,5 @@ Source for the references is the free [N3337](http://www.open-std.org/jtc1/sc22/
   <tr><td>trigraph.cpp</td><td>[lex.trigraph]</td><td>alternative sequences</td></tr>
   <tr><td>tuple.cpp</td><td>[tuple]</td><td>tuples</td></tr>
   <tr><td>valarray.cpp</td><td>[numarray]</td><td>numeric arrays</td></tr>
+  <tr><td>variadictemplates.cpp</td><td>[temp.variadic]</td><td>variadic templates</td></tr>
 </table>

@@ -13,5 +13,6 @@ List of missing examples
 * ratio
 * alignment
 * type traits
-* variadic templates
 * rvalue references
+* mutable
+* ref wrapper
