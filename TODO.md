@@ -8,7 +8,6 @@ List of missing examples
 -----------------------
 
 * atomic
-* mutex
 * functoid
 * ratio
 * alignment
