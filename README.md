@@ -23,6 +23,7 @@ Source for the references is the free [N3337](http://www.open-std.org/jtc1/sc22/
 <table>
   <tr><th>file</th><th>reference</th><th>description</th></tr>
   <tr><td>algorithms.cpp</td><td>[algorithms]</td><td>algorithm on container, using lambda</td></tr>
+  <tr><td>aliastemplates.cpp</td><td>[temp.alias]</td><td>alias templates</td></tr>
   <tr><td>array.cpp</td><td>[array]</td><td>constant size array container</td></tr>
   <tr><td>auto.cpp</td><td>[dcl.spec.auto]</td><td>auto type-specifier for variables</td></tr>
   <tr><td>chrono.cpp</td><td>[time.syn]</td><td>time utilities</td></tr>
