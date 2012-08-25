@@ -29,6 +29,7 @@ Source for the references is the free [N3337](http://www.open-std.org/jtc1/sc22/
   <tr><td>chrono.cpp</td><td>[time.syn]</td><td>time utilities</td></tr>
   <tr><td>constexpr.cpp</td><td>[expr.const]</td><td>compile time and run time const</td></tr>
   <tr><td>defaultdelete.cpp</td><td>[dcl.fct.def.general]</td><td>defaulted and deleted definition</td></tr>
+  <tr><td>defaultfunctiontemplates.cpp</td><td>[temp.param]</td><td>default arguments in function templates</td></tr>
   <tr><td>delegation.cpp</td><td>[class.base.init]</td><td>delegating constructor</td></tr>
   <tr><td>enumeration.cpp</td><td>[dcl.enum]</td><td>type-safe enumerations</td></tr>
   <tr><td>file.cpp</td><td>[iostreams.base]</td><td>file stream</td></tr>

@@ -6,6 +6,7 @@ using namespace std;
 
 /*
  * Composition is now a tuple with an int as the fixed first type
+ * see also the default function templates example
  */
 
 template <class ... Types>
@@ -19,4 +20,3 @@ int main() {
   cout << get<1>(composition) << endl;
   cout << get<2>(composition) << endl;
 }
-
