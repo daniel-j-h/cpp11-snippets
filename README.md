@@ -37,6 +37,7 @@ Source for the references is the free [N3337](http://www.open-std.org/jtc1/sc22/
   <tr><td>hashtable.cpp</td><td>[unord.general]</td><td>hashtable</td></tr>
   <tr><td>initializer.cpp</td><td>[support.initlist]</td><td>initializer lists</td></tr>
   <tr><td>lambda.cpp</td><td>[expr.prim.lambda]</td><td>simple function objects</td></tr>
+  <tr><td>literals.cpp</td><td>[lex.ext]</td><td>user defined literals</td></tr>
   <tr><td>math.cpp</td><td>[c.math]</td><td>math functions</td></tr>
   <tr><td>nullptr.cpp</td><td>[lex.nullptr]</td><td>null</td></tr>
   <tr><td>overridefinal.cpp</td><td>[class.virtual]</td><td>identifier</td></tr>
