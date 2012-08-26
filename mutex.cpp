@@ -4,7 +4,7 @@
 
 using namespace std;
 
-/* compile wirh -lpthread */
+/* compile with -lpthread */
 
 /*
  * Prefer std::lock_guard over mutex.lock() and mutex.unlock(),

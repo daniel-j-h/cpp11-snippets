@@ -14,4 +14,4 @@ List of missing examples
 * type traits
 * rvalue references
 * mutable
-* ref wrapper
+* hash
