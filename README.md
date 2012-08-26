@@ -48,6 +48,7 @@ Source for the references is the free [N3337](http://www.open-std.org/jtc1/sc22/
   <tr><td>referencewrapper.cpp</td><td>[ref_wrap]</td><td>reference wrapper</td></tr>
   <tr><td>regex.cpp</td><td>[re]</td><td>regular expressions</td></tr>
   <tr><td>rightbrackets.cpp</td><td>[diff.cpp03.temp]</td><td>removed template whitespace</td></tr>
+  <tr><td>rvalues.cpp</td><td>[basic.lval]</td><td>lvalues, rvalues</td></tr>
   <tr><td>smartpointer.cpp</td><td>[smartptr]</td><td>smart memory management</td></tr>
   <tr><td>staticassert.cpp</td><td>[dcl.dcl]</td><td>compile time assertions</td></tr>
   <tr><td>stringliterals.cpp</td><td>[lex.string]</td><td>string literals</td></tr>
