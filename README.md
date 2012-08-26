@@ -9,8 +9,8 @@ Compiler compatibility
 
 Please see the documentation on what's currently supported by your compiler
 
+* [clang](http://clang.llvm.org/cxx_status.html) (preferably in combination with [libc++](http://libcxx.llvm.org/))
 * [g++](http://gcc.gnu.org/projects/cxx0x.html)
-* [clang](http://clang.llvm.org/cxx_status.html)
 
 e.g. the initializer list code compiles only with g++ >= 4.4 or clang++ >= 3.1, which in the latter case is a rather current version
 

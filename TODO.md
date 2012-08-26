@@ -7,11 +7,13 @@ There are no examples for the following features, yet
 List of missing examples
 -----------------------
 
-* atomic
+* rvalue references
+* perfect forwarding
 * functoid
+* atomic
+* inheriting constructors
 * ratio
 * alignment
 * type traits
-* rvalue references
 * mutable
 * hash
