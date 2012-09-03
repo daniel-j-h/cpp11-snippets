@@ -1,0 +1,14 @@
+language: cpp
+compiler:
+  - clang
+before_script: cd src
+script: make --keep-going
+branches:
+  only:
+    - master
+notifications:
+  email:
+    recipients:
+      - daniel+travis-ci@trvx.org
+    on_success: change
+    on_failure: always

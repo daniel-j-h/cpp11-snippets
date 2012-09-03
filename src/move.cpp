@@ -9,7 +9,7 @@ class Fruit {
     Fruit(string& label_) : label(label_) { }
     Fruit(string&& label_) : label(move(label_)) { }
 
-    /* copy constuctor*/
+    /* copy constructor*/
     Fruit(const Fruit& other) : label(other.label) {
       cout << "copy constructor" << endl;
     }
