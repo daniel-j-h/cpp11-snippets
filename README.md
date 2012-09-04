@@ -4,17 +4,6 @@ C++11 Snippets
 Learn the new C++11 features by examples
 
 
-Compiler compatibility
-----------------------
-
-Please see the documentation on what's currently supported by your compiler
-
-* [clang](http://clang.llvm.org/cxx_status.html) (preferably in combination with [libc++](http://libcxx.llvm.org/))
-* [g++](http://gcc.gnu.org/projects/cxx0x.html)
-
-e.g. the initializer list code compiles only with g++ >= 4.4 or clang++ >= 3.1, which in the latter case is a rather current version
-
-
 Description
 -----------
 
@@ -61,3 +50,21 @@ Source for the references is the free [N3337](http://www.open-std.org/jtc1/sc22/
   <tr><td>valarray.cpp</td><td>[numarray]</td><td>numeric arrays</td></tr>
   <tr><td>variadictemplates.cpp</td><td>[temp.variadic]</td><td>variadic templates</td></tr>
 </table>
+
+
+Compile all snippets
+--------------------
+
+  * cd src
+  * make -j 4
+
+
+Compiler compatibility
+----------------------
+
+Please see the documentation on what's currently supported by your compiler
+
+* [clang](http://clang.llvm.org/cxx_status.html) (preferably in combination with [libc++](http://libcxx.llvm.org/))
+* [g++](http://gcc.gnu.org/projects/cxx0x.html)
+
+e.g. the initializer list code compiles only with g++ >= 4.4 or clang++ >= 3.1, which in the latter case is a rather current version
