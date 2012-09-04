@@ -2,7 +2,7 @@ language: cpp
 compiler:
   - clang
 before_install:
-  - sudo add-apt-repository ppa:eudoxos/llvm-3.1
+  - echo "yes" | sudo add-apt-repository ppa:eudoxos/llvm-3.1
   - sudo apt-get update
   - sudo apt-get install clang llvm-3.1
 before_script:
