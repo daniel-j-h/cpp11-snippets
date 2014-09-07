@@ -1,7 +1,10 @@
 C++11 Snippets
 ==============
 
-Learn the new C++11 features by examples
+Learn the new C++11 features by examples.
+
+Note: this repository is a few years old now and not really maintained anymore.
+My ongoing work on a C++14  repository is here: https://github.com/daniel-j-h/cpp14-snippets
 
 
 Description
